@@ -114,6 +114,35 @@ button:hover {
   border-radius: 4px;
 }
 
+/* Participants list under activity card */
+.participant-list {
+  list-style-type: none; /* hide default bullets */
+  margin-left: 0;
+  margin-top: 5px;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.participant-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px 0;
+}
+
+.remove-participant {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  font-size: 1.1em;
+  cursor: pointer;
+  padding: 0 5px;
+}
+
+.remove-participant:hover {
+  color: #b71c1c;
+}
+
 .success {
   background-color: #e8f5e9;
   color: #2e7d32;
